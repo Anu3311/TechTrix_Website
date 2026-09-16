@@ -1,0 +1,20 @@
+{
+  "name": "vigs-serial-bridge",
+  "version": "1.0.0",
+  "description": "VIGS — Visual Impaired Guide System: Serial-to-WebSocket Bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:win": "set SERIAL_PORT=COM3 && node server.js",
+    "start:linux": "SERIAL_PORT=/dev/ttyUSB0 node server.js",
+    "start:mac": "SERIAL_PORT=/dev/cu.usbmodem14101 node server.js"
+  },
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "@serialport/parser-readline": "^12.0.0",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -34,7 +34,7 @@ The website also uses **Node.js** for communication and connectivity between the
 
 ## 📁 Repository Structure
 
-
+```text
 VIGS/
 │
 ├── index.html
@@ -44,7 +44,7 @@ VIGS/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 > The exact file names may vary depending on the implementation.
 
 ## ⚙️ Installation & Setup
